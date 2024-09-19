@@ -11,7 +11,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="es">
       <body className={outfit.className}>
-          <Sidebar />
           <main>{children}</main> 
       </body>
     </html>
